@@ -1,0 +1,36 @@
+h1 {
+    color: red;
+    background-color: black;
+    text-align: center;
+}
+
+ul{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+   
+
+}
+
+li{
+    border: black 1px solid;
+    padding: 5px;
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+p 
+{
+font-size: 32px;
+text-align: center;
+
+}
+
+.copyright {
+    font-size: 16px;
+}
