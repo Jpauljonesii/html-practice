@@ -46,13 +46,39 @@
     </header> 
     <main>
 
-        
+     <button onclick="play();">Play</button>   
 
         <section>
             <img alt-"NBA logo" src="https://images.unsplash.com/photo-1608245449230-4ac19066d2d0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&q=80" class="center">August Phlieger</a> on <a href="https://unsplash.com/photos/CREqtqgBFcU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
             "/> 
             <p> This page is the opinion of John P. Jones II and is his Top 10 NBA players of All-Time.  </p>
-        </section>   
+        </section>  
+        
+        <script>
+
+alert("Welcome to John's Page")  
+
+function isMobile(){
+    return /Android|iPhone/i.test(navigator.userAgent);
+}
+console.log(isMobile());
+
+  var x = document.getElementById("demo");
+  function getLocation() {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(showPosition);
+    } else {
+      x.innerHTML = "Geolocation is not supported by this browser.";
+    }
+  }
+  console.log(getLocation)
+
+  function showPosition(position) {
+    x.innerHTML = "Latitude: " + position.coords.latitude +
+    "<br>Longitude: " + position.coords.longitude;
+  } 
+  console.log(showPosition)
+        </script>
     </main>  
     <footer>
         <p class="copyright">&copy; 2023 NBA </p>
