@@ -1,3 +1,5 @@
+'use script'
+
 function isMobile() {
     return /Android|iPhone/i.test(navigator.userAgent);
     console.log(isMobile());
